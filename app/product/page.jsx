@@ -296,6 +296,12 @@ const Product = () => {
               >
                 Get Products
               </Button>{" "}
+              <Link
+                href="/product/create"
+                className="rounded-lg bg-green-500 hover:bg-green-600 text-white px-4 py-2 active:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-opacity-50 transition duration-300 ease-in-out text-sm cursor-pointer"
+              >
+                Create Product
+              </Link>
               <Button
                 variant=""
                 onClick={SortProducts}
