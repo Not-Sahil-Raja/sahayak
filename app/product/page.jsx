@@ -110,7 +110,7 @@ const Product = () => {
         `${process.env.NEXT_PUBLIC_Link}/products/all?${
           (productLimitAdded ? `limit=${productAmnt}` : "limit=100") +
           (priceLimitAdded
-            ? `&max_price=${minPrice}&max_price=${maxPrice}`
+            ? `&min_price=${minPrice}&max_price=${maxPrice}`
             : "")
         }`
       )
