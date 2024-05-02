@@ -9,6 +9,11 @@ const fontSans = FontSans({
   variable: "--font-sans",
 });
 
+export const metadata = {
+  title: "Sahayak",
+  description: "Next.js + Tailwind CSS + Dark Mode ",
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
